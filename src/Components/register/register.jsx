@@ -53,7 +53,7 @@ const Register = () => {
         />
         <input
           type="text"
-          placeholder="Username"
+          placeholder="Username"//
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           required
